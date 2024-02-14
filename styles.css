@@ -1,0 +1,109 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior {
+
+    background: #ea0707;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 30px;
+    width: 95%;
+    max-width: 550px;
+
+}
+
+input {
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: #1413132b;
+    color: #ffffff;
+    width: calc(100% - 90px);
+    cursor: pointer;
+
+}
+
+.buscar-cidade{
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 40px;
+    background-color:#15056d2b ;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+.image-busca{
+
+    width: 20px;
+}
+
+
+.cidade{
+    color: #171616;
+    font-size: 15px;
+    margin-top: 30px;
+    font-style: italic;
+
+}
+
+.tempo{
+
+    color: rgb(17, 15, 17);
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.condiçao-tempo{
+
+color: #130303;
+font-size: 20PX;
+margin-top: 10PX;
+margin-left: 20PX;
+font-style: italic;
+text-transform: capitalize;
+}
+
+.caixa-menor {
+
+display:flex ;
+align-items: center;
+margin-top: 20PX;
+
+}
+
+.umidade{
+    margin-top: 20px;
+    color: #050505;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.temp-minima{
+font-size:18px ;
+margin-top: 10px;
+text-transform: capitalize;
+
+}
